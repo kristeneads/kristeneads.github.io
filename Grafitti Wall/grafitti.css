@@ -1,7 +1,5 @@
-.textcenter {
-    text-align: center;
+@font-face {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    src: url(https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap);
 }
 
-.section2 {
-    background-color: yellow;
-}
