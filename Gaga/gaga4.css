@@ -1,0 +1,9 @@
+/*FIXED BACKGROUND IMAGE*/
+
+body {
+    background-image: url(Gaga\ Images/ Clouds.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
