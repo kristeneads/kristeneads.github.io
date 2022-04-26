@@ -1,6 +1,7 @@
 .bg-img {
     /* The image used */
-    background-image: url("Passion_Photos/me_drip_right.png");
+    background-image: url("Passion_Photos/me_big_splatter.png");
+    background-color: #FFD9D9;
   
     min-height: 1000px;
   
@@ -23,20 +24,111 @@
   /* The navbar */
   .topnav {
     overflow: hidden;
-    background-color:#2D21F4;
+
+
   }
   
   /* Navbar links */
   .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: #2D21F4;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 23px;
   }
   
   .topnav a:hover {
     background-color: #FFD9D9;
+    font-size: large;
     color:#2D21F4;
   }
+
+/* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav-right {
+    float: none;
+    display: block;
+  }
+
+
+
+  #button-addon1 {
+    color: #ffc371;
+  }
+  
+  i {
+    color: #ffc371;
+  }
+  
+  .form-control::placeholder {
+    font-size: 0.95rem;
+    color: blue;
+    font-style: italic;
+  }
+  
+  .form-control.shadow-0:focus {
+    box-shadow: none;
+  }
+
+  body, html {
+    height: 100%;
+    background-color: #2D21F4;
+    color: #2D21F4;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image:  url("Passion_Photos/Gallery.png");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .projects{
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+
+i {
+    color: #ffc371;
+  }
+  
+  .form-control::placeholder {
+    font-size: 0.95rem;
+    color: #2D21F4;
+    font-style: italic;
+  }
+  
+  .form-control.shadow-0:focus {
+    box-shadow: none;
+  }
+
+  #footer {
+      background-color: #2D21F4;
+  }
+
+
