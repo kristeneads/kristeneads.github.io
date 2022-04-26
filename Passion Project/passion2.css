@@ -1,7 +1,7 @@
 .bg-img {
     /* The image used */
     background-image: url("Passion_Photos/me_big_splatter.png");
-    background-color: #FFD9D9;
+    background-color: #FFF6F6;
     
   
     min-height: 1000px;
@@ -9,7 +9,7 @@
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
   
     /* Needed to position the navbar */
     align-items: center;
@@ -27,6 +27,15 @@
     overflow: hidden;
 
 
+  }
+
+  .overlay{
+    font-family: 'Changa', sans-serif;
+    color: #2D21F4;
+    font-size: 60px;
+    padding-left: 18px;
+    margin-top: 20px;
+    z-index: 2;
   }
   
   /* Navbar links */
