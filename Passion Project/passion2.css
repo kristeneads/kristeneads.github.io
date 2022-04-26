@@ -127,9 +127,4 @@ i {
   .form-control.shadow-0:focus {
     box-shadow: none;
   }
-
-  #footer {
-      background-color: #2D21F4;
-  }
-
-
+}
